@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #GameArea{
+            position: relative;
+            margin: auto;
+            top: -25px;
+            height: 510px;
+            width: 510px;
+        }
+        #Container1{
+            position: relative;
+            margin: auto;
+
+        }
+        #Timer{
+            position: relative;
+            margin: auto;
+            left: -110px;
+            top: 0px;
+
+            height: 26px;
+            width: 170px;
+            border: solid black;
+
+            text-align: center;
+            background: #dddddd;
+            font-size: 24px;
+        }
+        #Counter{
+            position: relative;
+            margin: auto;
+            left: 110px;
+            top: -30px;
+
+            height: 26px;
+            width: 170px;
+            border: solid black;
+
+            background: #dddddd;
+            text-align: center;
+            font-size: 24px;
+        }
+        #GameSize{
+            position: relative;
+            margin: auto;
+            left: -110px;
+            top: -10px;
+
+            height: 26px;
+            width: 170px;
+            border: solid black;
+
+            background: #dddddd;
+            text-align: center;
+            font-size: 24px;
+        }
+        #Restart{
+            position: relative;
+            margin: auto;
+            left: 110px;
+            top: -40px;
+
+            height: 26px;
+            width: 170px;
+            border: solid black;
+
+            text-align: center;
+            background: #dddddd;
+            font-size: 24px;
+        }
+        #Tutorial{
+            position: relative;
+            background: #dddddd;
+            border: solid black 2px;
+            top: -597px;
+            left: 345px;
+            width: 100px;
+            height: 500px;
+            float: left;
+        }
+    </style>
+</head>
+<body onload="DivideGameArea()">
+<div>
+<p style="text-align: center"><b style="font-size: 48px; ">Gaismas Spēle</b></p>
+<div id="Container1">
+    <div id="Timer"><b>Laiks: 00:00</b></div>
+    <div id="Counter"><b>Gājieni: 0</b></div>
+</div>
+<div id="GameArea"></div>
+<div id="GameSize">
+    <label for="Izmers"><b>Izmērs:</b></label>
+    <select name="Izmers" id="Izmers" style="font-size: 21px; position: relative; top: -1px; left: 2px">
+        <option value="3">3x3</option>
+        <option value="4">4x4</option>
+        <option value="5">5x5</option>
+        <option value="6">6x6</option>
+        <option value="9">9x9</option>
+    </select></div>
+<div id="Restart" ><button onclick="DivideGameArea()" style="font-size: 18px; position: relative; top: -2px; width: 170px "><b>Restartēt</b></button></div>
+</div>
+<div id="Tutorial">
+    Gaismas spēlē  jums tiek dots  gaismas režģis, no kuriem daži ir tumši, bet citi - gaiši. Tie visi ir jāizslēdz, nospiežot uz lauciņa. Katrs nospiediens pārslēdz nospiesto lauku un to tuvākos kaimiņus.
+</div>
+<script src="GaismasSpele.js"></script>
+</body>
+</html>
