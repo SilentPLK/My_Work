@@ -1,0 +1,13 @@
+Gaismas spēle (28/04/2022):
+Veidots priekš sistēmas programmēšanas eksāmena.
+Mans mēģinājums izveidot "Lights Out" spēli.
+
+
+Interaktīvā Mape (17/03/2023):
+Veidots priekš WEB programmēšanas.
+Tā ir spēle kur tev ir jāatrod radītās vietas uz kartes.
+Darbs tika lietots kā atrakcīja vienā no skolas pasākumiem.
+
+Tracker (27/05/2023):
+Veidots priekš WEB programmēšanas, bet netika nodots.
+Darbs ir sekotājs, kas pārsūta lietotāja gps koordinātes un vai tie kustās uz datubāzi, lai varētu uzraudzīt darbiniekus darbā ārpus uzņēmuma ēkas.
